@@ -10,6 +10,9 @@
 		8498D84D1DB81DF200929692 /* FlickrFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8498D8431DB81DF200929692 /* FlickrFramework.framework */; };
 		8498D8521DB81DF200929692 /* FlickrFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498D8511DB81DF200929692 /* FlickrFrameworkTests.m */; };
 		8498D8541DB81DF200929692 /* FlickrFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8498D8461DB81DF200929692 /* FlickrFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8498D85F1DB822D700929692 /* ServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8498D85D1DB822D700929692 /* ServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8498D8601DB822D700929692 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498D85E1DB822D700929692 /* ServiceManager.m */; };
+		8498D86E1DB8280600929692 /* FlickrAPIKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 8498D86D1DB8280600929692 /* FlickrAPIKey.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		8498D84C1DB81DF200929692 /* FlickrFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8498D8511DB81DF200929692 /* FlickrFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrFrameworkTests.m; sourceTree = "<group>"; };
 		8498D8531DB81DF200929692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8498D85D1DB822D700929692 /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
+		8498D85E1DB822D700929692 /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
+		8498D86D1DB8280600929692 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				8498D8461DB81DF200929692 /* FlickrFramework.h */,
+				8498D86D1DB8280600929692 /* FlickrAPIKey.h */,
+				8498D85D1DB822D700929692 /* ServiceManager.h */,
+				8498D85E1DB822D700929692 /* ServiceManager.m */,
 				8498D8471DB81DF200929692 /* Info.plist */,
 			);
 			path = FlickrFramework;
@@ -93,7 +102,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8498D85F1DB822D700929692 /* ServiceManager.h in Headers */,
 				8498D8541DB81DF200929692 /* FlickrFramework.h in Headers */,
+				8498D86E1DB8280600929692 /* FlickrAPIKey.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8498D8601DB822D700929692 /* ServiceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +398,7 @@
 				8498D8591DB81DF200929692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8498D85A1DB81DF200929692 /* Build configuration list for PBXNativeTarget "FlickrFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +407,7 @@
 				8498D85C1DB81DF200929692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
