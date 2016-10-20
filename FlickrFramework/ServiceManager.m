@@ -24,7 +24,7 @@
 }
 
 + (NSArray *)getRecentPhotosInPage:(int)page andNumber:(int)number {
-    NSString *request = [NSString stringWithFormat:@"%@?method=flickr.photos.getRecent&per_page=%i&page=%i&extras=description,owner_name,date_upload,original_format", BASE_URL, number, page];
+    NSString *request = [NSString stringWithFormat:@"%@?method=flickr.photos.getRecent&per_page=%i&page=%i&extras=description,owner_name,date_upload,url_sq", BASE_URL, number, page];
     return [[self executeFlickrFetch:request] valueForKeyPath:@"photos.photo"];
 }
 

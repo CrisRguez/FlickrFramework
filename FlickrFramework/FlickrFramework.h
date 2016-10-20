@@ -15,6 +15,6 @@ FOUNDATION_EXPORT double FlickrFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char FlickrFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like
-#import <FlickrFramework/PublicHeader.h>
+#import <FlickrFramework/ServiceManager.h>
 
 

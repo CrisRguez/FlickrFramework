@@ -10,6 +10,8 @@
 
 @interface ServiceManager : NSObject
 
+// TODO without test. Try, and get an APIKey for Flickr
 + (NSArray *)getRecentPhotosInPage:(int)page andNumber:(int)number;
+// TODO create another method which returns image one by one
 
 @end
